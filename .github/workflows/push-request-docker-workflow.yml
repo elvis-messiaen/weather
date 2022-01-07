@@ -1,4 +1,4 @@
-name: Worflow TU
+name: Worflow docker
 
 on: [push]
 
