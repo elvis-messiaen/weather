@@ -12,6 +12,10 @@ jobs:
         uses: actions/setup-node@v1
       - name: dependances
         run: npm install
+      - name: demarage
+        uses: npm start
+      - name: node app
+        uses: node app --location Newcaste
       - name: éxecution des tests
         run: npm test
 
