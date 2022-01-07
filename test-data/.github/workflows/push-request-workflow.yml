@@ -9,4 +9,4 @@ jobs:
       - name: recup du repo
         uses: actions/checkout@v2
       - name: éxecution des tests
-        run: npm test
+      - run: npm test
