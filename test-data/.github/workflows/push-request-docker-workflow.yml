@@ -1,6 +1,7 @@
 name: Worflow TU
 
-on: [pull_request]
+on:
+  push:
 
 jobs:
   test-unitaire:
