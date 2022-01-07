@@ -19,6 +19,7 @@ function fetchWeather(location, callback) {
     });
 }
 
+
 function processResults(allResults){
     return {
         'minTemp'   : kelvinToCelcius(allResults.main.temp_min),    // Celsius
