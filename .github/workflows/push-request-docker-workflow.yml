@@ -12,8 +12,6 @@ jobs:
         uses: actions/setup-node@v1
       - name: dependances
         run: npm install
-      - name: demarage
-        uses: npm start
       - name: éxecution des tests
         run: npm test
 
