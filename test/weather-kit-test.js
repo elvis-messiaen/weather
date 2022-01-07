@@ -5,6 +5,7 @@ var expect = chai.expect;
 var should = chai.should();
 var assert = chai.assert;
 
+
 /* Include module(s) to test */
 var helloWeather = require('../prepared-for-the-weather');
 
