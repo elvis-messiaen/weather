@@ -1,9 +1,9 @@
-FROM node:16-alpine3.15
+FROM node:16-alpine3.14
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY . .
+COPY . . 
 
 RUN npm install
 
-CMD [ "node", "server.js" ]
+CMD [ "npm", "run", "start" ]
