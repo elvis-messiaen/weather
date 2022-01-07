@@ -19,6 +19,7 @@ var friday      = sampleData.warm_wet;
 
 describe('Test the weather kit module\'s basic functionality', function(){
 
+    
     /* Example of Chai expect*/
     it('should return true for umbrella test if it is raining',function(){
         expect(helloWeather.doINeed.umbrella(monday)).to.be.a('boolean');
